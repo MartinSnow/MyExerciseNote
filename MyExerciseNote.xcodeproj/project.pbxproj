@@ -14,6 +14,15 @@
 		D83C29291F62D3DD00CF06FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83C29271F62D3DD00CF06FF /* LaunchScreen.storyboard */; };
 		D83C29341F62D3DD00CF06FF /* MyExerciseNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29331F62D3DD00CF06FF /* MyExerciseNoteTests.swift */; };
 		D83C293F1F62D3DD00CF06FF /* MyExerciseNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C293E1F62D3DD00CF06FF /* MyExerciseNoteUITests.swift */; };
+		D83C294E1F62D3F600CF06FF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D83C294C1F62D3F600CF06FF /* Model.xcdatamodeld */; };
+		D83C29511F62D8BB00CF06FF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29501F62D8BB00CF06FF /* CoreDataStack.swift */; };
+		D83C29561F62E3C200CF06FF /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29521F62E3C200CF06FF /* Note+CoreDataClass.swift */; };
+		D83C29571F62E3C200CF06FF /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29531F62E3C200CF06FF /* Note+CoreDataProperties.swift */; };
+		D83C29581F62E3C200CF06FF /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29541F62E3C200CF06FF /* Notebook+CoreDataClass.swift */; };
+		D83C29591F62E3C200CF06FF /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C29551F62E3C200CF06FF /* Notebook+CoreDataProperties.swift */; };
+		D83C295C1F63E00A00CF06FF /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C295B1F63E00A00CF06FF /* CoreDataTableViewController.swift */; };
+		D83C295E1F63FE2A00CF06FF /* NotebooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C295D1F63FE2A00CF06FF /* NotebooksViewController.swift */; };
+		D83C29601F64153E00CF06FF /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C295F1F64153E00CF06FF /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,16 @@
 		D83C293A1F62D3DD00CF06FF /* MyExerciseNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyExerciseNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C293E1F62D3DD00CF06FF /* MyExerciseNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExerciseNoteUITests.swift; sourceTree = "<group>"; };
 		D83C29401F62D3DD00CF06FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83C294D1F62D3F600CF06FF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D83C29501F62D8BB00CF06FF /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D83C29521F62E3C200CF06FF /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "../Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D83C29531F62E3C200CF06FF /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D83C29541F62E3C200CF06FF /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "../Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D83C29551F62E3C200CF06FF /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D83C295B1F63E00A00CF06FF /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		D83C295D1F63FE2A00CF06FF /* NotebooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksViewController.swift; sourceTree = "<group>"; };
+		D83C295F1F64153E00CF06FF /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		D83C29611F65312900CF06FF /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +116,8 @@
 		D83C291D1F62D3DD00CF06FF /* MyExerciseNote */ = {
 			isa = PBXGroup;
 			children = (
+				D83C295A1F63DFCE00CF06FF /* Controller */,
+				D83C294F1F62D89600CF06FF /* Model */,
 				D83C291E1F62D3DD00CF06FF /* AppDelegate.swift */,
 				D83C29201F62D3DD00CF06FF /* ViewController.swift */,
 				D83C29221F62D3DD00CF06FF /* Main.storyboard */,
@@ -123,6 +144,29 @@
 				D83C29401F62D3DD00CF06FF /* Info.plist */,
 			);
 			path = MyExerciseNoteUITests;
+			sourceTree = "<group>";
+		};
+		D83C294F1F62D89600CF06FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D83C294C1F62D3F600CF06FF /* Model.xcdatamodeld */,
+				D83C29501F62D8BB00CF06FF /* CoreDataStack.swift */,
+				D83C29521F62E3C200CF06FF /* Note+CoreDataClass.swift */,
+				D83C29531F62E3C200CF06FF /* Note+CoreDataProperties.swift */,
+				D83C29541F62E3C200CF06FF /* Notebook+CoreDataClass.swift */,
+				D83C29551F62E3C200CF06FF /* Notebook+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D83C295A1F63DFCE00CF06FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D83C295B1F63E00A00CF06FF /* CoreDataTableViewController.swift */,
+				D83C295D1F63FE2A00CF06FF /* NotebooksViewController.swift */,
+				D83C295F1F64153E00CF06FF /* NotesViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83C29591F62E3C200CF06FF /* Notebook+CoreDataProperties.swift in Sources */,
+				D83C295E1F63FE2A00CF06FF /* NotebooksViewController.swift in Sources */,
+				D83C29601F64153E00CF06FF /* NotesViewController.swift in Sources */,
 				D83C29211F62D3DD00CF06FF /* ViewController.swift in Sources */,
 				D83C291F1F62D3DD00CF06FF /* AppDelegate.swift in Sources */,
+				D83C29561F62E3C200CF06FF /* Note+CoreDataClass.swift in Sources */,
+				D83C294E1F62D3F600CF06FF /* Model.xcdatamodeld in Sources */,
+				D83C29581F62E3C200CF06FF /* Notebook+CoreDataClass.swift in Sources */,
+				D83C29511F62D8BB00CF06FF /* CoreDataStack.swift in Sources */,
+				D83C29571F62E3C200CF06FF /* Note+CoreDataProperties.swift in Sources */,
+				D83C295C1F63E00A00CF06FF /* CoreDataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +565,7 @@
 				D83C29451F62D3DD00CF06FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D83C29461F62D3DD00CF06FF /* Build configuration list for PBXNativeTarget "MyExerciseNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +574,7 @@
 				D83C29481F62D3DD00CF06FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D83C29491F62D3DD00CF06FF /* Build configuration list for PBXNativeTarget "MyExerciseNoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,8 +583,24 @@
 				D83C294B1F62D3DD00CF06FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D83C294C1F62D3F600CF06FF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D83C29611F65312900CF06FF /* Model 2.xcdatamodel */,
+				D83C294D1F62D3F600CF06FF /* Model.xcdatamodel */,
+			);
+			currentVersion = D83C29611F65312900CF06FF /* Model 2.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D83C29131F62D3DD00CF06FF /* Project object */;
 }
